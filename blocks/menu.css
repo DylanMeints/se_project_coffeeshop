@@ -1,0 +1,99 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #0a2750;
+  color: white;
+}
+
+.menu__title {
+  position: relative;
+  max-width: 780px;
+  top: 100px;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  position: relative;
+  justify-content: center;
+  max-width: 780px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.menu__cards {
+  width: 100%;
+  display: flex;
+  top: 100px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  flex-basis: 43%;
+}
+
+.card__title {
+  margin: 0px 0px 32px 0px;
+  font-family: "inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  color: #fff;
+}
+
+.card__list {
+  gap: 16px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-left: 0;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__prices {
+  position: relative;
+  list-style: none;
+}
+
+.card__sizes {
+  position: relative;
+  list-style: none;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #fff;
+  margin: auto 10px 0 10px;
+}
