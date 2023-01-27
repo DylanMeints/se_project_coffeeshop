@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  flex-basis: 43%;
+}
+
+.card__title {
+  margin: 0px 0px 32px 0px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  color: #fff;
+}
+
+.card__list {
+  gap: 16px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-left: 0;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__prices {
+  position: relative;
+  list-style: none;
+}
+
+.card__sizes {
+  position: relative;
+  list-style: none;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #fff;
+  margin: auto 10px 0 10px;
+}
