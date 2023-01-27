@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.reservation__title {
+.form__title {
   position: relative;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   line-height: 52px;
 }
 
-.reservation__form {
+.form__info {
   display: flex;
   justify-content: center;
 }
