@@ -11,9 +11,12 @@
     <meta name="author" content="Dylan Meints" />
     <title>Specialty Coffee Shop in the Practicum Library</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
@@ -180,65 +183,64 @@
         </section>
         <section id="book_a_table" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-            <form class="reservation__form">
-              <div class="reservation__fieldsets">
-                <fieldset class="reservation__fieldset">
-                  <label for="name" class="reservation__label">Name</label>
-                  <input
-                    type="text"
-                    class="reservation__input"
-                    id="name"
-                    name="Name"
-                    placeholder="Name Surname"
-                    required
-                  />
-                  <label for="Number-of-guests" class="reservation__label"
-                    >Number of guests</label
-                  >
-                  <input
-                    type="number"
-                    class="reservation__input"
-                    id="Number-of-guests"
-                    min="1"
-                    max="8"
-                    placeholder="1-8"
-                    required
-                  />
-                  <label for="Date-&-Time" class="reservation__label"
-                    >Date & Time</label
-                  >
-                  <input
-                    type="datetime-local"
-                    class="reservation__input"
-                    id="Date-&-Time"
-                  />
-                  <label class="reservation__label">Your email</label>
-                  <input
-                    type="email"
-                    class="reservation__input"
-                    id="email"
-                    name="Name"
-                    placeholder="email@email.com"
-                    required
-                  />
-                  <button type="submit" class="reservation__button">
-                    Book a table
-                  </button>
-                </fieldset>
-              </div>
-              <fieldset class="reservation__checkbox">
+          <form class="reservation__form">
+            <div class="reservation__fieldsets">
+              <fieldset class="reservation__fieldset">
+                <label for="name" class="reservation__label">Name</label>
                 <input
-                  type="checkbox"
-                  class="reservation__checkbox"
-                  name="checkbox"
-                  id="checkbox"
+                  type="text"
+                  class="reservation__input"
+                  id="name"
+                  name="Name"
+                  placeholder="Name Surname"
+                  required
                 />
-                <label class="reservation__checkbox"
-                  >I agree with the terms of use</label
+                <label for="Number-of-guests" class="reservation__label"
+                  >Number of guests</label
                 >
+                <input
+                  type="number"
+                  class="reservation__input"
+                  id="Number-of-guests"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+                <label for="Date-&-Time" class="reservation__label"
+                  >Date & Time</label
+                >
+                <input
+                  type="datetime-local"
+                  class="reservation__input"
+                  id="Date-&-Time"
+                />
+                <label class="reservation__label">Your email</label>
+                <input
+                  type="email"
+                  class="reservation__input"
+                  id="email"
+                  name="Name"
+                  placeholder="email@email.com"
+                  required
+                />
+                <button type="submit" class="reservation__button">
+                  Book a table
+                </button>
               </fieldset>
-            </form>
-          </div>
+            </div>
+            <fieldset class="reservation__checkbox">
+              <input
+                type="checkbox"
+                class="reservation__checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
+              <label class="reservation__checkbox"
+                >I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
         </section>
         <section id="contacts" class="about">
           <div class="about__circle"></div>
