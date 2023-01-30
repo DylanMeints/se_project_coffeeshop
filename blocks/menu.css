@@ -3,16 +3,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
   background-color: #0a2750;
   color: white;
 }
 
 .menu__title {
-  position: relative;
   max-width: 780px;
-  top: 100px;
-  padding-bottom: 24px;
+  padding-top: 100px;
+  margin-bottom: 24px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
@@ -23,9 +21,8 @@
   position: relative;
   justify-content: center;
   max-width: 780px;
-  padding-top: 30px;
   padding-bottom: 100px;
-  font-family: "Noto serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   text-align: center;

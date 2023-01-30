@@ -1,27 +1,22 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  position: relative;
-  padding-right: 80px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-top: 60px;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 60px;
-  padding-right: 100px;
-  padding-bottom: 108px;
-  padding-left: 80px;
+  margin-bottom: 108px;
   color: white;
 }
 
-.footer__logo {
-  position: static;
-}
-
 .footer__social-heading {
-  position: static;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__social-link {
@@ -51,6 +46,4 @@
 
 .footer__copyright {
   color: #fff;
-  padding-bottom: 60px;
-  padding-left: 80px;
 }
