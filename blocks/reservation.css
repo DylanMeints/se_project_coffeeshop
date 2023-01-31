@@ -74,11 +74,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 12px;
 }
 
-.reservation__checkbox_size {
+.reservation__checkbox-size {
   width: 20px;
+  height: 20px;
 }
 
 .reservation__label {
