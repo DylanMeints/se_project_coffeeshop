@@ -5,11 +5,11 @@
   flex-direction: column;
   background-color: #0a2750;
   color: white;
+  padding-top: 100px;
 }
 
 .menu__title {
   max-width: 780px;
-  padding-top: 100px;
   margin-bottom: 24px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
@@ -21,7 +21,7 @@
   position: relative;
   justify-content: center;
   max-width: 780px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -31,7 +31,6 @@
 .menu__cards {
   width: 100%;
   display: flex;
-  top: 100px;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;

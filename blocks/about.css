@@ -20,7 +20,7 @@
   position: relative;
   overflow: hidden;
   justify-content: space-between;
-  padding-top: 0;
+  padding-top: 100px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 173px;
@@ -34,14 +34,13 @@
   font-size: 44px;
   line-height: 52px;
   z-index: 3;
-  padding-top: 100px;
   margin: 0;
 }
 
 .about__content {
   justify-content: center;
   max-width: 660px;
-  padding-top: 119px;
+  margin-top: 19px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
