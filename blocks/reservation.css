@@ -47,6 +47,7 @@
   line-height: 30px;
   color: #838383;
   margin-bottom: 32px;
+  padding-left: 20px;
 }
 
 .reservation__button {
@@ -60,6 +61,7 @@
   cursor: pointer;
   border-style: none;
   font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
   padding: 0;
   margin-bottom: 32px;
 }
