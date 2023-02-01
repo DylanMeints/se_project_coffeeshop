@@ -66,6 +66,5 @@
 
 .about__circle-animation {
   animation: pulsate 1.3s ease-in-out 0s infinite;
-  position: absolute;
   z-index: 0;
 }
